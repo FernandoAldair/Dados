@@ -1,3 +1,5 @@
+package Ex1;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -44,7 +46,6 @@ public class Main {
             if (valortotal[j]>0){
                 System.out.println("El valor " + (j+1) + " ha salido " + valortotal[j]);
             }
-
         }
     }
 }
