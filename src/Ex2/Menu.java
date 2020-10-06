@@ -14,13 +14,13 @@ public class Menu {
         int resultado = scanner.nextInt();
 
         if (resultado == 1){
-            Dados.start();
+            JocDaus.start();
         }
         else if (resultado == 2){
-
+            //Parxis.start();
         }
         else if (resultado == 3){
-
+            //TicTacToe.start();
         }
     }
 }
