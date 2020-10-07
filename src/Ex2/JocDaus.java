@@ -5,6 +5,10 @@ import java.util.Scanner;
 
 public class JocDaus {
 
+    public JocDaus() {
+
+    }
+
     public static void start() {
         int cantidadDados = 3;
 

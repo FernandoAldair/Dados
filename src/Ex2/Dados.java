@@ -4,10 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Dados {
-//    public static int dado1, dado2, dado3;
     Random random = new Random();
-
-
     private int valor;
 
     public int getValor() {
@@ -25,11 +22,14 @@ public class Dados {
                 '}';
     }
 
-    public int tirar(){
+    public void tirar(){
         valor = random.nextInt(6);
-        return valor;
     }
 
+
+
+
+//    public static int dado1, dado2, dado3;
 //    public static void start() {
 //        Random random = new Random();
 //        int valorDado = 6;
