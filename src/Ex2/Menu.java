@@ -17,10 +17,10 @@ public class Menu {
             juegoDados.jugar();
         }
         else if (resultado == 2){
-            //Parxis.start();
+            //Parxis.jugar();
         }
         else if (resultado == 3){
-            //TicTacToe.start();
+            //TicTacToe.jugar();
         }
     }
 }
