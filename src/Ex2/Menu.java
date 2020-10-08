@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Menu {
     public static void start() {
         Scanner scanner = new Scanner(System.in);
-
+        JocDaus juegoDados = new JocDaus();
         System.out.println("A que quieres jugar? :)");
         System.out.println("1: Daus");
         System.out.println("2: Parxis");
@@ -14,7 +14,7 @@ public class Menu {
         int resultado = scanner.nextInt();
 
         if (resultado == 1){
-            JocDaus.start();
+            juegoDados.jugar();
         }
         else if (resultado == 2){
             //Parxis.start();

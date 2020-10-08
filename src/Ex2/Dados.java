@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Dados {
     Random random = new Random();
-    private int valor;
+    protected int valor;
 
     public int getValor() {
         return valor;
