@@ -1,7 +1,6 @@
 package Ex2;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class Dados {
     Random random = new Random();
@@ -22,8 +21,9 @@ public class Dados {
                 '}';
     }
 
-    public void tirar(){
+    public int tirar(){
         valor = random.nextInt(6);
+        return valor;
     }
 
 
