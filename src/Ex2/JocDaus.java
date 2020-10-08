@@ -53,5 +53,21 @@ public class JocDaus{
         System.out.println("Victorias: " + vic);
         System.out.println("Derrotas: " + der);
         System.out.println("Total jugado: " + total);
+        System.out.println("--------------------------------");
+        System.out.println("Que quieres hacer?");
+        System.out.println("1: Seguir jugando");
+        System.out.println("2: Salir al menu");
+        int opcion = scanner.nextInt();
+        switch (opcion){
+            case 1:
+                jugar();
+                break;
+            case 2:
+                Menu.start();
+                break;
+            default:
+                System.out.println("Esta opcion no existe");
+        }
     }
+
 }
